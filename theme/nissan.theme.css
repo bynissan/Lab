@@ -1,0 +1,32 @@
+@import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Link para fonte customizada */
+/*##########################################################################
+
+                 Mude os valores abaixo para customizar o tema
+
+##########################################################################*/
+:root {
+  /* Cores */
+  --themeColor1: rgb(89, 35, 236); /* Cor primária */
+  --themeColor2: rgb(43, 46, 248); /* Cor secundária */
+
+  /* Fonte customizada */
+  --customFont: 'Open sans', sans-serif; /* Fonte customizada, troque o nome em 'Nome da fonte', você deve importar a fonte antes */
+
+  /* Botão inicial */
+  --homeImage: url('https://github.com/By-Henrique/Lab/blob/main/home-icons/icon-rainbow.png?raw=true');/* Imagem do botão inicial, deve ser um link direto para a imagem | Você pode também trocá-lo por um gradiente, google "css gradient"*/
+  --homeImageSize: cover;/* Para cobrir o botão, coloque como "cover". Você pode também colocar como "100% 100%" mas a imagem irá ficar esticada. Coloque como "contain" pra ver a imagem completa */
+
+  /* Fundo */
+  --backgroundColor: #0d0d0d; /* Cor de Fundo */
+  --backgroundImage: url('https://github.com/By-Henrique/Lab/blob/main/background/Albedo.jpg?raw=true'); /* Imagem de fundo, deve ser um link direto | Você também pode colocá-lo como gradiente, google "css gradient"*/
+  --backgroundPosition: center; /* Posição da imagem | center (centro), left (esquerda), right (direita), bottom (abaixo), top (acima) */
+  --backgroundSize: cover; /* Para cobrir todo o aplicativo, coloque como "cover". Você pode também colocar como "100% 100%" mas a imagem irá ficar esticada. Coloque como "contain" pra ver a imagem completa */
+  --backgroundRepeat: no-repeat; /* Se deseja que a imagem repita | Google "css background repeat" */
+  --backgroundBlur: 5px; /* coloque como 0 para remover o desfoque | Coloque 100 para um defoque grande */
+  --backgroundOpacity: .40; /* Coloque como 0 para o fundo ser transparente | Coloque como 1 para ser visivel */
+
+  /* CODE BLOCKS */
+  --backgroundCode: rgba(0,0,0,.5);
+  --backgroundName: rgba(0,0,0,.5);
+}
